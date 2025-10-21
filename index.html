@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp - Modern Weather Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-cloud-sun"></i>
+                <span>WeatherApp</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#tech">Tech</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="weather-animation">
+                <div class="cloud cloud-1"></div>
+                <div class="cloud cloud-2"></div>
+                <div class="sun"></div>
+                <div class="rain-drop"></div>
+                <div class="rain-drop"></div>
+                <div class="rain-drop"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">Modern Weather</span>
+                <br>Experience
+            </h1>
+            <p class="hero-subtitle">
+                Beautiful, accurate weather information with stunning animations and rich colors. 
+                Built for iOS and Android with cutting-edge design.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">
+                    <i class="fab fa-apple"></i>
+                    Download for iOS
+                </button>
+                <button class="btn btn-secondary">
+                    <i class="fab fa-google-play"></i>
+                    Download for Android
+                </button>
+            </div>
+        </div>
+        <div class="hero-phone">
+            <div class="phone-mockup">
+                <div class="phone-screen">
+                    <div class="weather-widget">
+                        <div class="weather-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <div class="temperature">24°C</div>
+                        <div class="location">San Francisco</div>
+                        <div class="weather-desc">Sunny</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Amazing Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h3>Real-Time Data</h3>
+                    <p>Accurate weather information updated every 15 minutes with GPS location services and manual search capabilities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Advanced Forecasting</h3>
+                    <p>Detailed hourly and daily forecasts with interactive graphs and extended 15-day outlooks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <h3>Interactive Maps</h3>
+                    <p>Real-time radar maps, satellite imagery, and storm tracking with temperature overlays.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Notifications</h3>
+                    <p>Customizable weather alerts, severe weather warnings, and personalized notifications.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Beautiful Design</h3>
+                    <p>Stunning animations, rich color schemes, and smooth transitions for an immersive experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Cross-Platform</h3>
+                    <p>Native iOS and Android apps with platform-specific features and seamless synchronization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Section -->
+    <section id="design" class="design">
+        <div class="container">
+            <h2 class="section-title">Stunning Design</h2>
+            <div class="design-content">
+                <div class="color-schemes">
+                    <h3>Color Themes</h3>
+                    <div class="theme-cards">
+                        <div class="theme-card aurora-theme">
+                            <div class="theme-preview">
+                                <div class="color-block" style="background: #1e3a8a;"></div>
+                                <div class="color-block" style="background: #06b6d4;"></div>
+                                <div class="color-block" style="background: #f97316;"></div>
+                                <div class="color-block" style="background: #ffffff;"></div>
+                            </div>
+                            <h4>Aurora Sky</h4>
+                            <p>Deep ocean blues with electric cyan accents</p>
+                        </div>
+                        <div class="theme-card sunset-theme">
+                            <div class="theme-preview">
+                                <div class="color-block" style="background: #ff6b35;"></div>
+                                <div class="color-block" style="background: #f7931e;"></div>
+                                <div class="color-block" style="background: #6b46c1;"></div>
+                                <div class="color-block" style="background: #3b82f6;"></div>
+                            </div>
+                            <h4>Sunset Gradient</h4>
+                            <p>Warm oranges transitioning to deep purples</p>
+                        </div>
+                        <div class="theme-card midnight-theme">
+                            <div class="theme-preview">
+                                <div class="color-block" style="background: #1f2937;"></div>
+                                <div class="color-block" style="background: #3b82f6;"></div>
+                                <div class="color-block" style="background: #10b981;"></div>
+                                <div class="color-block" style="background: #f3f4f6;"></div>
+                            </div>
+                            <h4>Midnight Storm</h4>
+                            <p>Dark charcoal with electric blue highlights</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="animations">
+                    <h3>Beautiful Animations</h3>
+                    <div class="animation-demo">
+                        <div class="weather-icon-demo">
+                            <i class="fas fa-cloud-rain weather-anim"></i>
+                        </div>
+                        <div class="animation-description">
+                            <h4>Weather-Specific Effects</h4>
+                            <ul>
+                                <li>Animated rain drops and snowflakes</li>
+                                <li>Smooth sun ray animations</li>
+                                <li>Cloud movement and transitions</li>
+                                <li>Interactive particle effects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">Interactive Demo</h2>
+            <div class="demo-container">
+                <div class="demo-phone">
+                    <div class="phone-screen-demo">
+                        <div class="demo-header">
+                            <div class="location-selector">
+                                <select id="locationSelect">
+                                    <option value="san-francisco">San Francisco</option>
+                                    <option value="new-york">New York</option>
+                                    <option value="london">London</option>
+                                    <option value="tokyo">Tokyo</option>
+                                </select>
+                            </div>
+                            <div class="theme-toggle">
+                                <button id="themeToggle" class="theme-btn">
+                                    <i class="fas fa-moon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="demo-weather">
+                            <div class="current-weather">
+                                <div class="weather-icon-large">
+                                    <i class="fas fa-sun" id="weatherIcon"></i>
+                                </div>
+                                <div class="temperature-large" id="temperature">24°C</div>
+                                <div class="weather-description" id="weatherDesc">Sunny</div>
+                            </div>
+                            <div class="weather-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Visibility: <span id="visibility">10 km</span></span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-wind"></i>
+                                    <span>Wind: <span id="wind">12 km/h</span></span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-tint"></i>
+                                    <span>Humidity: <span id="humidity">65%</span></span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-thermometer-half"></i>
+                                    <span>Feels like: <span id="feelsLike">26°C</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo-controls">
+                    <h3>Try Different Locations</h3>
+                    <p>Select a location to see how the app adapts to different weather conditions and themes.</p>
+                    <div class="control-buttons">
+                        <button class="control-btn" data-location="san-francisco">
+                            <i class="fas fa-city"></i>
+                            San Francisco
+                        </button>
+                        <button class="control-btn" data-location="new-york">
+                            <i class="fas fa-city"></i>
+                            New York
+                        </button>
+                        <button class="control-btn" data-location="london">
+                            <i class="fas fa-city"></i>
+                            London
+                        </button>
+                        <button class="control-btn" data-location="tokyo">
+                            <i class="fas fa-city"></i>
+                            Tokyo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="tech" class="technology">
+        <div class="container">
+            <h2 class="section-title">Built with Modern Technology</h2>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>APIs & Data</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>OpenWeatherMap</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>Google Maps API</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-wind"></i>
+                            <span>AirVisual API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Platform Support</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-apple"></i>
+                            <span>iOS Native</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-android"></i>
+                            <span>Android Native</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-sync"></i>
+                            <span>Cross-Platform Sync</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Performance</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQLite Caching</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Background Updates</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Offline Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Experience the Future of Weather Apps?</h3>
+                    <p>Download WeatherApp today and discover a new way to stay informed about the weather around you.</p>
+                    <div class="contact-buttons">
+                        <button class="btn btn-primary">
+                            <i class="fab fa-apple"></i>
+                            Download for iOS
+                        </button>
+                        <button class="btn btn-secondary">
+                            <i class="fab fa-google-play"></i>
+                            Download for Android
+                        </button>
+                    </div>
+                </div>
+                <div class="contact-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1M+</div>
+                        <div class="stat-label">Downloads</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4.9</div>
+                        <div class="stat-label">App Store Rating</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Countries</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-cloud-sun"></i>
+                    <span>WeatherApp</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#design">Design</a>
+                    <a href="#demo">Demo</a>
+                    <a href="#tech">Technology</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WeatherApp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
